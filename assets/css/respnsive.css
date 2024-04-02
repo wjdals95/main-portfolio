@@ -1,0 +1,217 @@
+/* -------------------------------------------
+
+    1500px
+
+--------------------------------------------- */
+
+@media (max-width: 1500px) {
+}
+
+/* -------------------------------------------
+
+    1450px
+
+--------------------------------------------- */
+
+@media (max-width: 1450px) {
+	.responsive-sidebar-menu .sidebar-menu-inner {
+		padding: 50px 0px;
+	}
+}
+
+/* -------------------------------------------
+
+    1400px
+
+--------------------------------------------- */
+
+@media (max-width: 1400px) {
+	.icon-menu {
+		right: 30px;
+	}
+	.myinfo-card {
+		left: 30px;
+		width: 350px;
+		padding: 30px 20px;
+	}
+	.sidebar-nav {
+		right: 30px;
+	}
+}
+/* -------------------------------------------
+
+    1250px
+
+--------------------------------------------- */
+@media (min-width: 1251px) {
+	.icon-menu:hover {
+	border-color: #28e98c;
+}
+.icon-menu:hover .bar {
+	background-color: #28e98c;
+}
+}
+@media (max-width: 1250px) {
+	.custom-container {
+		max-width: 800px;
+	}
+	.icon-menu {
+		position: fixed;
+	}
+	.myinfo-card {
+		display: none;
+	}
+	.sidebar-nav {
+		display: none;
+	}
+	main .myinfo-card {
+		display: block;
+		position: relative;
+		left: 0;
+		top: 0;
+		transform: translateY(0);
+		max-width: 767px;
+		width: 100%;
+		margin: 20px auto 0;
+		padding: 30px 50px;
+	}
+}
+
+/* -------------------------------------------
+
+    1100px
+
+--------------------------------------------- */
+
+@media (max-width: 1100px) {
+}
+
+/* -------------------------------------------
+
+    992px
+
+--------------------------------------------- */
+
+@media (max-width: 992px) {
+}
+
+/* -------------------------------------------
+
+    767px
+
+--------------------------------------------- */
+
+@media (max-width: 767px) {
+	.icon-menu {
+		right: 20px;
+		top: 20px;
+	}
+	.custom-container {
+		max-width: 650px;
+	}
+	.home-section .section-header h1 {
+		font-size: 54px;
+		line-height: 65px;
+	}
+	.about-section .content-width p {
+		font-size: 20px;
+	}
+	.myskills-section .skills .skill {
+		width: 50%;
+	}
+}
+
+/* -------------------------------------------
+
+    600px
+
+--------------------------------------------- */
+
+@media (max-width: 600px) {
+	.home-section {
+		padding: 70px 0 0;
+	}
+	.about-section,
+	.resume-section,
+	.myskills-section,
+	.portfolio-section,
+	.contact-section {
+		padding: 90px 0 0;
+	}
+	.home-section .section-header h1 {
+		font-size: 38px;
+	}
+	.about-section .content-width p {
+		font-size: 16px;
+	}
+	.resume-section .resume-timeline .resume-item {
+		padding: 0 0 50px 50px;
+	}
+	.resume-section .resume-timeline .resume-item:nth-last-of-type(1) {
+		padding: 0 0 0 50px;
+	}
+	.portfolio-section
+		.portfolio-items
+		.portfolio-item.portfolio-full
+		.portfolio-item-inner {
+		height: 300px;
+	}
+	.portfolio-section .portfolio-items .portfolio-item {
+		width: 100%;
+	}
+}
+
+/* -------------------------------------------
+
+    500px
+
+--------------------------------------------- */
+
+@media (max-width: 500px) {
+	.home-section .section-header h1 {
+		line-height: 50px;
+	}
+	.resume-section .resume-timeline .resume-item {
+		padding: 0 0 50px 30px;
+	}
+	.resume-section .resume-timeline .resume-item:nth-last-of-type(1) {
+		padding: 0 0 0 30px;
+	}
+}
+
+/* -------------------------------------------
+
+    450px
+
+--------------------------------------------- */
+
+@media (max-width: 450px) {
+}
+
+/* -------------------------------------------
+
+    400px
+
+--------------------------------------------- */
+
+@media (max-width: 400px) {
+}
+
+/* -------------------------------------------
+
+    360px
+
+--------------------------------------------- */
+
+@media (max-width: 360px) {
+	.myinfo-card .myinfo-header p {
+		font-size: 23px;
+	}
+	.myinfo-card .myinfo-header span {
+		font-size: 15px;
+	}
+	.myinfo-card .myphoto {
+		height: 250px;
+		width: 250px;
+	}
+}
