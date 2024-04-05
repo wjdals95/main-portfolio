@@ -306,7 +306,7 @@ main .myinfo-card {
 }
 .custom-container {
   max-width: 1130px;
-  padding: 0 15px;
+  padding: 0 30px;
   margin: auto;
   overflow: hidden;
 }
@@ -621,7 +621,7 @@ main .myinfo-card {
   opacity: 1;
 }
 .portfolio-detail .container {
-  width: 1290px;
+  width: 1200px;
   height: 700px;
   background-color: #222;
   position: absolute;
@@ -629,7 +629,7 @@ main .myinfo-card {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-  border: 5px solid var(--white-color);
+  border: 2px solid var(--white-color);
 }
 
 .portfolio-detail .container .porfolio-detail-items {
@@ -647,9 +647,11 @@ main .myinfo-card {
   left: 0;
   top: 0;
   opacity: 0;
+  z-index: 0;
 }
 .portfolio-detail .container .porfolio-detail-item.active {
   opacity: 1;
+  z-index: 1;
 }
 .portfolio-detail .container .item-image-box {
   width: 50%;
@@ -667,41 +669,53 @@ main .myinfo-card {
   width: 50%;
   padding: 2rem;
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  gap: 100px;
+  gap: 30px;
   color: var(--white-color);
 }
 .portfolio-detail .container .item-text-box .item-text-top {
-  padding-left: 50px;
+  
 }
 .portfolio-detail .container .item-text-box .item-text-top h2 {
-  font-size: 2.4rem;
-  margin-bottom: 10px;
+  font-size: 3rem;
+  font-weight: 600;
 }
 .portfolio-detail .container .item-text-box .item-text-top ul {
   display: flex;
   gap: 2rem;
   justify-content: flex-start;
   color: var(--accent-color);
-  margin-bottom: 30px;
-}
-.portfolio-detail .container .item-text-box .item-text-top a {
-  padding: 10px 20px;
-  background: var(--accent-color);
-  border-radius: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  margin: 0 auto;
 }
 .portfolio-detail .container .item-text-box .item-text-middle {
+	width: 90%;
+    word-break: keep-all;
+	letter-spacing: -0.025em;
+}
+.portfolio-detail .container .item-text-box .item-text-bottom h3 {
+	font-size: 1.2rem;
+    font-weight: 600;
 }
 .portfolio-detail .container .item-text-box .item-text-bottom ul li span {
   width: 70px;
   display: inline-block;
   color: var(--accent-color);
 }
+.portfolio-detail .container .item-text-box a {
+	padding: 10px 20px;
+	border: 1px solid var(--accent-color);
+	color: var(--white-color);
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 120px;
+	transition: 0.3s;
+  }
+  .portfolio-detail .container .item-text-box a:hover{
+	background: var(--accent-color);
+	
+  }
 /* .portfolio-slider .container .prev{
 	background-image: url("../images/icon/prev.png");
 	width: 50px;
