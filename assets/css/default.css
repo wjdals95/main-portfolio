@@ -36,8 +36,9 @@ input[type=email],
 input[type=file],
 input[type=url],
 input[type=number],
-input[type=date],textarea {width:100%; font-size:18px; color:#fff;   background:#000; text-indent:20px; border-radius: 5px; transition: all 0.5s; vertical-align:middle;}
-input::-webkit-input-placeholder{color:#999999; font-size:16px; line-height:100%;}
+input[type=date],textarea {width:100%; font-size:18px; color:var(--white-color);   background:var(--main-color); text-indent:20px; border-radius: 5px; transition: all 0.5s; vertical-align:middle; border-radius: 30px;}
+input::-webkit-input-placeholder{color:#3f3f3f; font-size:16px; line-height:100%;}
+textarea::-webkit-input-placeholder{color:#3f3f3f;}
 textarea { padding:5px 0;}
 select:focus,
 textarea:focus,
