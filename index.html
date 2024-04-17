@@ -1,929 +1,842 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- CSS CDN -->
-    <link rel="stylesheet" href="./assets/css/default.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/respnsive.css" />
+      <!-- CSS CDN -->
+      <link rel="stylesheet" href="./assets/css/default.css" />
+      <link rel="stylesheet" href="./assets/css/style.css" />
+      <link rel="stylesheet" href="./assets/css/respnsive.css" />
 
-    <!-- FontAwesome CDN -->
-    <script
-      src="https://kit.fontawesome.com/8d2950cec4.js"
-      crossorigin="anonymous"
-    ></script>
+      <!-- FontAwesome CDN -->
+      <script src="https://kit.fontawesome.com/8d2950cec4.js" crossorigin="anonymous"></script>
+      <!-- Remix Icon -->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+      <title>Jeongmin Portfolio</title>
+   </head>
 
-    <title>Jeongmin Portfolio</title>
-  </head>
-
-  <body>
-    <span class="icon-menu">
-      <span class="bar"></span>
-      <span class="bar"></span>
-    </span>
-    <div class="responsive-sidebar-menu">
-      <div class="sidebar-overlay"></div>
-      <div class="sidebar-menu-inner">
-        <div class="sidebar-menu-wrap">
-          <p>Menu</p>
-          <ul>
-            <li>
-              <a class="respon-nav-click active" href="#home"
-                ><img src="./assets/images/icon/home.svg" /><span>Home</span></a
-              >
-            </li>
-            <li>
-              <a class="respon-nav-click" href="#about"
-                ><img src="./assets/images/icon/about.svg" /><span
-                  >About</span
-                ></a
-              >
-            </li>
-            <li>
-              <a class="respon-nav-click" href="#resume"
-                ><img src="./assets/images/icon/resume.svg" /><span
-                  >Resume</span
-                ></a
-              >
-            </li>
-            <li>
-              <a class="respon-nav-click" href="#myskills"
-                ><img src="./assets/images/icon/skill.svg" /><span
-                  >My Skills</span
-                ></a
-              >
-            </li>
-            <li>
-              <a class="respon-nav-click" href="#portfolio"
-                ><img src="./assets/images/icon/portfolio.svg" /><span
-                  >Portfolio</span
-                ></a
-              >
-            </li>
-            <li>
-              <a class="respon-nav-click" href="#contact"
-                ><img src="./assets/images/icon/contact.svg" /><span
-                  >Contact</span
-                ></a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="sidebar-social">
-          <p>Social</p>
-          <ul class="sidebar-social-links">
-            <li>
-              <a href="https://github.com/wjdals95" target="_blank"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/wjdals992/" target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-            </li>
-            <li>
-              <a href="mailto:wjdals992@naver.com" target="_blank"
-                ><i class="fa-solid fa-globe"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://open.kakao.com/o/smSn8Jjg"
-                ><img src="./assets/images/icon/kakaotalk.svg"
-              /></a>
-            </li>
-          </ul>
-        </div>
+   <body>
+      <span class="icon-menu">
+         <span class="bar"></span>
+         <span class="bar"></span>
+      </span>
+      <div class="responsive-sidebar-menu">
+         <div class="sidebar-overlay"></div>
+         <div class="sidebar-menu-inner">
+            <div class="sidebar-menu-wrap">
+               <p>Menu</p>
+               <ul>
+                  <li>
+                     <a class="respon-nav-click active" href="#home"
+                        ><img src="./assets/images/icon/home.svg" /><span>Home</span></a
+                     >
+                  </li>
+                  <li>
+                     <a class="respon-nav-click" href="#about"
+                        ><img src="./assets/images/icon/about.svg" /><span>About</span></a
+                     >
+                  </li>
+                  <li>
+                     <a class="respon-nav-click" href="#resume"
+                        ><img src="./assets/images/icon/resume.svg" /><span>Resume</span></a
+                     >
+                  </li>
+                  <li>
+                     <a class="respon-nav-click" href="#myskills"
+                        ><img src="./assets/images/icon/skill.svg" /><span>My Skills</span></a
+                     >
+                  </li>
+                  <li>
+                     <a class="respon-nav-click" href="#portfolio"
+                        ><img src="./assets/images/icon/portfolio.svg" /><span>Portfolio</span></a
+                     >
+                  </li>
+                  <li>
+                     <a class="respon-nav-click" href="#contact"
+                        ><img src="./assets/images/icon/contact.svg" /><span>Contact</span></a
+                     >
+                  </li>
+               </ul>
+            </div>
+            <div class="sidebar-social">
+               <p>Social</p>
+               <ul class="sidebar-social-links">
+                  <li>
+                     <a href="https://github.com/wjdals95" target="_blank"><i class="ri-github-line"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/wjdals992/" target="_blank"
+                        ><i class="ri-instagram-line"></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href="mailto:wjdals992@naver.com" target="_blank"><i class="ri-mail-line"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://open.kakao.com/o/smSn8Jjg" target="_blank"><i class="ri-kakao-talk-line"></i></a>
+                  </li>
+               </ul>
+            </div>
+         </div>
       </div>
-    </div>
-    <div class="myinfo-card">
-      <div class="myinfo-header">
-        <p>ChoiJeongMin</p>
-        <span>Web UI Developer & Web Publisher</span>
-      </div>
-      <img class="myphoto" src="./assets/images/myPhoto.jpg" alt="my photo" />
-      <h2 class="email">wjdals992@naver.com</h2>
-      <h2 class="addres">경기도 광주시</h2>
-      <ul class="social-profile">
-        <li>
-          <a href="https://github.com/wjdals95" target="_blank"
-            ><i class="fa-brands fa-github"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/wjdals992/" target="_blank"
-            ><i class="fa-brands fa-instagram"></i
-          ></a>
-        </li>
-        <li>
-          <a href="mailto:wjdals992@naver.com" target="_blank"
-            ><i class="fa-solid fa-globe"></i
-          ></a>
-        </li>
-        <li>
-          <a href="https://open.kakao.com/o/smSn8Jjg" target="_blank"
-            ><img
-              src="./assets/images/icon/kakaotalk.svg"
-              alt="kakaotalk"
-              class="fa-kakao"
-          /></a>
-        </li>
-      </ul>
-      <p class="copyright">@ Jeongmin All Rights Reserved</p>
-    </div>
-    <ul class="sidebar-nav">
-      <li>
-        <a class="nav-click active" href="#home"
-          ><span>Home</span> <img src="./assets/images/icon/home.svg" alt=""
-        /></a>
-      </li>
-      <li>
-        <a class="nav-click" href="#about"
-          ><span>About</span><img src="./assets/images/icon/about.svg" alt=""
-        /></a>
-      </li>
-      <li>
-        <a class="nav-click" href="#resume"
-          ><span>Resume</span><img src="./assets/images/icon/resume.svg" alt=""
-        /></a>
-      </li>
-      <li>
-        <a class="nav-click" href="#myskills"
-          ><span>My Skills</span
-          ><img src="./assets/images/icon/skill.svg" alt=""
-        /></a>
-      </li>
-      <li>
-        <a class="nav-click" href="#portfolio"
-          ><span>Portfolio</span
-          ><img src="./assets/images/icon/portfolio.svg" alt=""
-        /></a>
-      </li>
-      <li>
-        <a class="nav-click" href="#contact"
-          ><span>Contact</span
-          ><img src="./assets/images/icon/contact.svg" alt=""
-        /></a>
-      </li>
-    </ul>
-    <main>
-      <div class="myinfo-box">
-        <div class="myinfo-card">
-          <div class="myinfo-header">
+      <div class="myinfo-card">
+         <div class="myinfo-header">
             <p>ChoiJeongMin</p>
             <span>Web UI Developer & Web Publisher</span>
-          </div>
-          <img class="myphoto" src="./assets/images/myPhoto.jpg" alt="my photo" />
-          <h2 class="email">wjdals992@naver.com</h2>
-          <h2 class="addres">경기도 광주시</h2>
-          <ul class="social-profile">
+         </div>
+         <img class="myphoto" src="./assets/images/myPhoto.jpg" alt="my photo" />
+         <h2 class="email">wjdals992@naver.com</h2>
+         <h2 class="addres">경기도 광주시</h2>
+         <ul class="social-profile">
             <li>
-              <a href="https://github.com/wjdals95" target="_blank"
-                ><i class="fa-brands fa-github"></i
-              ></a>
+               <a href="https://github.com/wjdals95" target="_blank"><i class="ri-github-line"></i></a>
             </li>
             <li>
-              <a href="https://www.instagram.com/wjdals992/" target="_blank"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
+               <a href="https://www.instagram.com/wjdals992/" target="_blank"><i class="ri-instagram-line"></i></a>
             </li>
             <li>
-              <a href="mailto:wjdals992@naver.com" target="_blank"
-                ><i class="fa-solid fa-globe"></i
-              ></a>
+               <a href="mailto:wjdals992@naver.com" target="_blank"><i class="ri-mail-line"></i></a>
             </li>
             <li>
-              <a href="https://open.kakao.com/o/smSn8Jjg" target="_blank"
-                ><img
-                  src="./assets/images/icon/kakaotalk.svg"
-                  alt="kakaotalk"
-                  class="fa-kakao"
-              /></a>
+               <a href="https://open.kakao.com/o/smSn8Jjg" target="_blank"><i class="ri-kakao-talk-line"></i></a>
             </li>
-          </ul>
-          <p class="copyright">@ Jeongmin All Rights Reserved</p>
-        </div>
+         </ul>
+         <p class="copyright">@ Jeongmin All Rights Reserved</p>
       </div>
-      <section id="home" class="home-section">
-        <div class="custom-container">
-          <div class="content-width">
-            <div class="section-header">
-              <h4>
-                <img src="./assets/images/icon/home.svg" />
-                <span>INTRODUCE</span>
-              </h4>
-              <h1>
-                안녕하세요 최정민입니다. <br />
-                저는 <span>Web UI Developer</span> 입니다.
-              </h1>
-            </div>
-            <p>
-              저는 코드를 작성하며 UI를 제작하는것을 좋아합니다.<br />
-              단지 일로서만이 아닌 작품을 만드는 것처럼 즐기면서 제작합니다.
-            </p>
-            <a class="go-portfolio-btn" href="#portfolio"
-              ><i class="fa-solid fa-arrow-down"></i
-              ><img src="./assets/images/round-text.png" alt="round text"
+      <ul class="sidebar-nav">
+         <li>
+            <a class="nav-click active" href="#home"
+               ><span>Home</span> <img src="./assets/images/icon/home.svg" alt=""
             /></a>
-          </div>
-        </div>
-      </section>
-      <section id="about" class="about-section">
-        <div class="custom-container">
-          <div class="content-width">
-            <div class="section-header">
-              <h4>
-                <img src="./assets/images/icon/about.svg" />
-                <span>ABOUT</span>
-              </h4>
+         </li>
+         <li>
+            <a class="nav-click" href="#about"><span>About</span><img src="./assets/images/icon/about.svg" alt="" /></a>
+         </li>
+         <li>
+            <a class="nav-click" href="#resume"
+               ><span>Resume</span><img src="./assets/images/icon/resume.svg" alt=""
+            /></a>
+         </li>
+         <li>
+            <a class="nav-click" href="#myskills"
+               ><span>My Skills</span><img src="./assets/images/icon/skill.svg" alt=""
+            /></a>
+         </li>
+         <li>
+            <a class="nav-click" href="#portfolio"
+               ><span>Portfolio</span><img src="./assets/images/icon/portfolio.svg" alt=""
+            /></a>
+         </li>
+         <li>
+            <a class="nav-click" href="#contact"
+               ><span>Contact</span><img src="./assets/images/icon/contact.svg" alt=""
+            /></a>
+         </li>
+      </ul>
+      <main>
+         <div class="myinfo-box">
+            <div class="myinfo-card">
+               <div class="myinfo-header">
+                  <p>ChoiJeongMin</p>
+                  <span>Web UI Developer & Web Publisher</span>
+               </div>
+               <img class="myphoto" src="./assets/images/myPhoto.jpg" alt="my photo" />
+               <h2 class="email">wjdals992@naver.com</h2>
+               <h2 class="addres">경기도 광주시</h2>
+               <ul class="social-profile">
+                  <li>
+                     <a href="https://github.com/wjdals95" target="_blank"><i class="ri-github-fill"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/wjdals992/" target="_blank"
+                        ><i class="ri-instagram-fill"></i
+                     ></a>
+                  </li>
+                  <li>
+                     <a href="mailto:wjdals992@naver.com" target="_blank"><i class="ri-mail-fill"></i></a>
+                  </li>
+                  <li>
+                     <a href="https://open.kakao.com/o/smSn8Jjg" target="_blank"><i class="ri-kakao-talk-fill"></i></a>
+                  </li>
+               </ul>
+               <p class="copyright">@ Jeongmin All Rights Reserved</p>
             </div>
-            <p>
-              안녕하세요, 웹 UI 개발자 최정민입니다. CSS와 JavaScript를 활용해
-              애니메이션을 주며 동적인 화면을 만드는 것에 관심이 많으며, 웹표준
-              및 웹 접근성을 지키며 유지보수에 좋은 코드를 짜기 위해 꾸준히
-              공부하고 있습니다.<br />
-              웹 UI 개발자란 이용자에게 눈이 즐거운 사이트를 제공하고, 웹을 통해
-              브랜드의 가치를 높이는 것이라고 생각합니다.
-            </p>
-            <p>
-              저는 웹 개발자에게 필요한
-              <span>꼼꼼함, 꾸준함, 계획적, 목표달성적, 끈기력</span>이라는
-              장점을 가지고있고, 이를 활용하여 개인이 아닌
-              <span>팀원</span>으로서 주어진 임무를 완벽하게 달성하겠습니다.
-            </p>
-            <a
-              href="https://www.notion.so/cc1a73260c6e4e989af2289bf4629f46?pvs=4"
-              target="_blank"
-            >
-              자기소개 더보기
-            </a>
-          </div>
-        </div>
-      </section>
-      <section id="resume" class="resume-section">
-        <div class="custom-container">
-          <div class="content-width">
-            <div class="section-header">
-              <h4>
-                <img src="./assets/images/icon/resume.svg" />
-                <span>RESUME</span>
-              </h4>
-              <h1>Education & <span>Experience</span></h1>
-            </div>
-            <div class="resume-timeline">
-              <div class="resume-items">
-                <div class="resume-item">
-                  <h2>크립토케어 입사</h2>
-                  <p>2023.05 ~ ing</p>
-                </div>
-                <div class="resume-item">
-                  <h2>NCS(스마트웹&콘텐츠개발) UI/UX 반응형 웹</h2>
-                  <p>2022.09 ~ 2023.03</p>
-                </div>
-                <div class="resume-item">
-                  <h2>경기도 성남시 지방직 9급 공부</h2>
-                  <p>2020 ~ 2022</p>
-                </div>
-                <div class="resume-item">
-                  <h2>호서대학교 - 전기공학과 (4년제 졸업)</h2>
-                  <p>2014 ~ 2020</p>
-                </div>
-              </div>
-              <img
-                class="resume-img"
-                src="./assets/images/resume-img.png"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="myskills" class="myskills-section">
-        <div class="custom-container">
-          <div class="content-width">
-            <div class="section-header">
-              <h4>
-                <img src="./assets/images/icon/skill.svg" />
-                <span>MY SKILLS</span>
-              </h4>
-              <h1>My <span>Advantages</span></h1>
-            </div>
-            <div class="skills">
-              <div class="skill">
-                <div class="skill-inner">
-                  <img src="./assets/images/skills/html5.png" alt="html5" />
-                  <!-- <h2 class="percent">00%</h2> -->
-                  <h2>HTML5</h2>
-                </div>
-                <!-- <p class="name">HTML5</p> -->
-              </div>
-              <div class="skill">
-                <div class="skill-inner">
-                  <img src="./assets/images/skills/css3.png" alt="css3" />
-                  <!-- <h2 class="percent">00%</h2> -->
-                  <h2>CSS3</h2>
-                </div>
-                <!-- <p class="name">CSS3</p> -->
-              </div>
-              <div class="skill">
-                <div class="skill-inner">
-                  <img
-                    src="./assets/images/skills/javascript.png"
-                    alt="javascript"
-                  />
-                  <!-- <h2 class="percent">00%</h2> -->
-                  <h2>JavaScript</h2>
-                </div>
-                <!-- <p class="name">Javascript</p> -->
-              </div>
-              <div class="skill">
-                <div class="skill-inner">
-                  <img src="./assets/images/skills/react.png" alt="react" />
-                  <!-- <h2 class="percent">00%</h2> -->
-                  <h2>React</h2>
-                </div>
-                <!-- <p class="name">react</p> -->
-              </div>
-              <div class="skill">
-                <div class="skill-inner">
-                  <img src="./assets/images/skills/figma.png" alt="figma" />
-                  <!-- <h2 class="percent">00%</h2> -->
-                  <h2>Figma</h2>
-                </div>
-                <!-- <p class="name">Figma</p> -->
-              </div>
-              <div class="skill">
-                <div class="skill-inner">
-                  <img src="./assets/images/skills/github.png" alt="github" />
-                  <!-- <h2 class="percent">00%</h2> -->
-                  <h2>Github</h2>
-                </div>
-                <!-- <p class="name">Github</p> -->
-              </div>
-              <div class="skill">
-                <div class="skill-inner">
-                  <img
-                    src="./assets/images/skills/visualstudiocode.png"
-                    alt="Visualstudiocode"
-                  />
-                  <!-- <h2 class="percent">00%</h2> -->
-                  <h2>VScode</h2>
-                </div>
-                <!-- <p class="name">Visualstudiocode</p> -->
-              </div>
-              <div class="skill">
-                <div class="skill-inner">
-                  <img
-                    src="./assets/images/skills/intellijidea.png"
-                    alt="Intellij"
-                  />
-                  <!-- <h2 class="percent">00%</h2> -->
-                  <h2>Intellij</h2>
-                </div>
-                <!-- <p class="name">Intellij</p> -->
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="portfolio" class="portfolio-section">
-        <div class="custom-container">
-          <div class="content-width">
-            <div class="section-header">
-              <h4>
-                <img src="./assets/images/icon/portfolio.svg" />
-                <span>PORTFOLIO</span>
-              </h4>
-              <h1>Featured <span>Projects</span></h1>
-            </div>
-            <div class="portfolio-items">
-              <div class="portfolio-item portfolio-full" data-toggle="portfolio-item" data-target="#portfolio-2023">
-                <div class="portfolio-item-inner">
-                  <img
-                    src="./assets/images/portfolio-pbclass.png"
-                    alt="portfolio"
-                  />
-                </div>
-                <h2>2023년 포트폴리오</h2>
-                <ul class="portfolio-categories">
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Javascript</li>
-                </ul>
-              </div>
-              <div class="portfolio-item" data-toggle="portfolio-item" data-target="#todolist">
-                <div class="portfolio-item-inner">
-                  <img
-                    src="./assets/images/todolist-tailwind.png"
-                    alt="portfolio"
-                  />
-                </div>
-                <h2>Todo List</h2>
-                <ul class="portfolio-categories">
-                  <li>#HTML</li>
-                  <li>#TailwindCSS</li>
-                  <li>#Javascript</li>
-                </ul>
-              </div>
-              <div class="portfolio-item" data-toggle="portfolio-item" data-target="#hansol">
-                <div class="portfolio-item-inner">
-                  <img src="./assets/images/hansol.png" alt="portfolio" />
-                </div>
-                <h2>한솔홈데코</h2>
-                <ul class="portfolio-categories">
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                </ul>
-              </div>
-              <div class="portfolio-item portfolio-full" data-toggle="portfolio-item" data-target="#photosplash">
-                <div class="portfolio-item-inner">
-                  <img src="./assets/images/photosplash.png" alt="portfolio" />
-                </div>
-                <h2>PhotoSplash</h2>
-                <ul class="portfolio-categories">
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Vite</li>
-                  <li>#React</li>
-                  <li>#TypeScript</li>
-                </ul>
-              </div>
-              <div class="portfolio-item" data-toggle="portfolio-item" data-target="#ruco">
-                <div class="portfolio-item-inner">
-                  <img src="./assets/images/ruco.png" alt="portfolio" />
-                </div>
-                <h2>Ruco</h2>
-                <ul class="portfolio-categories">
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Javascript</li>
-                </ul>
-              </div>
-              <div class="portfolio-item" data-toggle="portfolio-item" data-target="#rism">
-                <div class="portfolio-item-inner">
-                  <img src="./assets/images/2rism.png" alt="portfolio" />
-                </div>
-                <h2>2rims</h2>
-                <ul class="portfolio-categories">
-                  <li>#HTML</li>
-                  <li>#CSS</li>
-                  <li>#Javascript</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="contact" class="contact-section">
-        <div class="custom-container">
-          <div class="content-width">
-            <div class="section-header">
-              <h4>
-                <img src="./assets/images/icon/contact.svg" />
-                <span>CONTACT</span>
-              </h4>
-              <h1>Let's Work <span>Together!</span></h1>
-            </div>
-            <div class="form-box">
-              <form
-                id="emailForm"
-                class="gform"
-                method="POST"
-                data-email="wjdals992@naver.com"
-                action="https://script.google.com/macros/s/AKfycbyEfXNG4QB2cbOvm6rraRv6_VDiHiP8sPTNzhAbT3pG-JnJWdSIuLVQaY2pSJBIyqxs4A/exec"
-              >
-                <div class="form-group-top">
-                  <div class="form-group">
-                    <label for="#senderEmail">Email <span>*</span></label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="senderEmail"
-                      name="senderEmail"
-                      placeholder="Your Email"
-                      required
-                    />
+         </div>
+         <section id="home" class="home-section">
+            <div class="custom-container">
+               <div class="content-width">
+                  <div class="section-header">
+                     <h4>
+                        <img src="./assets/images/icon/home.svg" />
+                        <span>INTRODUCE</span>
+                     </h4>
+                     <h1>
+                        안녕하세요 최정민입니다. <br />
+                        저는 <span>Web UI Developer</span> 입니다.
+                     </h1>
                   </div>
-                  <div class="form-group">
-                    <label for="#senderNAme">Name <span>*</span></label>
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="senderName"
-                      name="senderName"
-                      placeholder="Your Name"
-                      required
-                    />
+                  <p>
+                     저는 코드를 작성하며 UI를 제작하는것을 좋아합니다.<br />
+                     단지 일로서만이 아닌 작품을 만드는 것처럼 즐기면서 제작합니다.
+                  </p>
+                  <a class="go-portfolio-btn" href="#portfolio"
+                     ><i class="fa-solid fa-arrow-down"></i><img src="./assets/images/round-text.png" alt="round text"
+                  /></a>
+               </div>
+            </div>
+         </section>
+         <section id="about" class="about-section">
+            <div class="custom-container">
+               <div class="content-width">
+                  <div class="section-header">
+                     <h4>
+                        <img src="./assets/images/icon/about.svg" />
+                        <span>ABOUT</span>
+                     </h4>
                   </div>
-                </div>
-                <div class="form-group message-area">
-                  <label for="#message">message <span>*</span></label>
-                  <textarea
-                    class="form-control"
-                    id="message"
-                    name="message"
-                    rows="5"
-                    placeholder="Your Message"
-                  ></textarea>
-                </div>
-
-                <script type="text/javascript">
-                  (function () {
-                    // get all data in form and return object
-                    function getFormData(form) {
-                      var elements = form.elements;
-                      var honeypot;
-
-                      var fields = Object.keys(elements)
-                        .filter(function (k) {
-                          if (elements[k].name === "honeypot") {
-                            honeypot = elements[k].value;
-                            return false;
-                          }
-                          return true;
-                        })
-                        .map(function (k) {
-                          if (elements[k].name !== undefined) {
-                            return elements[k].name;
-                            // special case for Edge's html collection
-                          } else if (elements[k].length > 0) {
-                            return elements[k].item(0).name;
-                          }
-                        })
-                        .filter(function (item, pos, self) {
-                          return self.indexOf(item) == pos && item;
-                        });
-
-                      var formData = {};
-                      fields.forEach(function (name) {
-                        var element = elements[name];
-
-                        // singular form elements just have one value
-                        formData[name] = element.value;
-
-                        // when our element has multiple items, get their values
-                        if (element.length) {
-                          var data = [];
-                          for (var i = 0; i < element.length; i++) {
-                            var item = element.item(i);
-                            if (item.checked || item.selected) {
-                              data.push(item.value);
-                            }
-                          }
-                          formData[name] = data.join(", ");
-                        }
-                      });
-
-                      // add form-specific values into the data
-                      formData.formDataNameOrder = JSON.stringify(fields);
-                      formData.formGoogleSheetName =
-                        form.dataset.sheet || "responses"; // default sheet name
-                      formData.formGoogleSendEmail = form.dataset.email || ""; // no email by default
-
-                      return { data: formData, honeypot: honeypot };
-                    }
-
-                    function handleFormSubmit(event) {
-                      // handles form submit without any jquery
-                      event.preventDefault(); // we are submitting via xhr below
-                      var form = event.target;
-                      var formData = getFormData(form);
-                      var data = formData.data;
-
-                      // If a honeypot field is filled, assume it was done so by a spam bot.
-                      if (formData.honeypot) {
-                        return false;
-                      }
-
-                      disableAllButtons(form);
-                      var url = form.action;
-                      var xhr = new XMLHttpRequest();
-                      xhr.open("POST", url);
-                      // xhr.withCredentials = true;
-                      xhr.setRequestHeader(
-                        "Content-Type",
-                        "application/x-www-form-urlencoded"
-                      );
-                      xhr.onreadystatechange = function () {
-                        if (xhr.readyState === 4 && xhr.status === 200) {
-                          form.reset();
-                          var formElements =
-                            form.querySelector(".form-elements");
-                          if (formElements) {
-                            formElements.style.display = "none"; // hide form
-                          }
-                          var thankYouMessage =
-                            form.querySelector(".thankyou_message");
-                          if (thankYouMessage) {
-                            thankYouMessage.style.display = "block";
-                            alert(
-                              "메일 전송에 성공했습니다. 확인 후 회신드리겠습니다."
-                            );
-                          }
-                        }
-                      };
-                      // url encode form data for sending as post data
-                      var encoded = Object.keys(data)
-                        .map(function (k) {
-                          return (
-                            encodeURIComponent(k) +
-                            "=" +
-                            encodeURIComponent(data[k])
-                          );
-                        })
-                        .join("&");
-                      xhr.send(encoded);
-                    }
-
-                    function loaded() {
-                      // bind to the submit event of our form
-                      var forms = document.querySelectorAll("form.gform");
-                      for (var i = 0; i < forms.length; i++) {
-                        forms[i].addEventListener(
-                          "submit",
-                          handleFormSubmit,
-                          false
-                        );
-                      }
-                    }
-                    document.addEventListener(
-                      "DOMContentLoaded",
-                      loaded,
-                      false
-                    );
-
-                    function disableAllButtons(form) {
-                      var buttons = form.querySelectorAll("button");
-                      for (var i = 0; i < buttons.length; i++) {
-                        buttons[i].disabled = true;
-                      }
-                    }
-                  })();
-                </script>
-                <div class="form-group">
-                  <button id="btnSubmit" class="btn-submit">
-                    Send Message
-                  </button>
-                </div>
-
-                <div style="display: none" class="thankyou_message">
-                  <h2>
-                    <em>Thanks</em> for contacting me! <br />
-                    I will get back to you soon!
-                  </h2>
-                </div>
-              </form>
-              <img src="./assets/images/contact-img.png" alt="" />
+                  <p>
+                     안녕하세요, 웹 UI 개발자 최정민입니다. CSS와 JavaScript를 활용해 애니메이션을 주며 동적인 화면을
+                     만드는 것에 관심이 많으며, 웹표준 및 웹 접근성을 지키며 유지보수에 좋은 코드를 짜기 위해 꾸준히
+                     공부하고 있습니다.<br />
+                     웹 UI 개발자란 이용자에게 눈이 즐거운 사이트를 제공하고, 웹을 통해 브랜드의 가치를 높이는 것이라고
+                     생각합니다.
+                  </p>
+                  <p>
+                     저는 웹 개발자에게 필요한
+                     <span>꼼꼼함, 꾸준함, 계획적, 목표달성적, 끈기력</span>이라는 장점을 가지고있고, 이를 활용하여
+                     개인이 아닌 <span>팀원</span>으로서 주어진 임무를 완벽하게 달성하겠습니다.
+                  </p>
+                  <a href="https://www.notion.so/cc1a73260c6e4e989af2289bf4629f46?pvs=4" target="_blank">
+                     자기소개 더보기
+                  </a>
+               </div>
             </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <div class="portfolio-detail">
-      <div class="container">
-        <div class="porfolio-detail-items">
-          <div class="porfolio-detail-item" id="portfolio-2023">
-            <div class="item-image-box">
-              <img
-                src="./assets/images/portfolio-pbclass-full.png"
-                alt="Portfolio 2023"
-              />
+         </section>
+         <section id="resume" class="resume-section">
+            <div class="custom-container">
+               <div class="content-width">
+                  <div class="section-header">
+                     <h4>
+                        <img src="./assets/images/icon/resume.svg" />
+                        <span>RESUME</span>
+                     </h4>
+                     <h1>Education & <span>Experience</span></h1>
+                  </div>
+                  <div class="resume-timeline">
+                     <div class="resume-items">
+                        <div class="resume-item">
+                           <h2>크립토케어 입사</h2>
+                           <p>2023.05 ~ ing</p>
+                        </div>
+                        <div class="resume-item">
+                           <h2>NCS(스마트웹&콘텐츠개발) UI/UX 반응형 웹</h2>
+                           <p>2022.09 ~ 2023.03</p>
+                        </div>
+                        <div class="resume-item">
+                           <h2>경기도 성남시 지방직 9급 공부</h2>
+                           <p>2020 ~ 2022</p>
+                        </div>
+                        <div class="resume-item">
+                           <h2>호서대학교 - 전기공학과 (4년제 졸업)</h2>
+                           <p>2014 ~ 2020</p>
+                        </div>
+                     </div>
+                     <img class="resume-img" src="./assets/images/resume-img.png" alt="" />
+                  </div>
+               </div>
             </div>
-            <div class="item-text-box">
-              <div class="item-text-top">
-                <h2>2023년 포트폴리오</h2>
-                <ul>
-                  <li>#구현100%</li>
-                  <li>#반응형</li>
-                  <li>#퍼블리싱</li>
-                </ul>
-              </div>
-              <div class="item-text-middle">
-                <p>
-                  국지비원수업을 수료한 후 퍼블리셔로 취업하기 위해 현업자의
-                  조언을 받으며 스터디를 진행했습니다. 이를 통해 다양한 이벤트를
-                  주고, 반응형 퍼블리싱을 완성했습니다.
-                </p>
-              </div>
-              <div class="item-text-bottom">
-                <h3>Work Info</h3>
-                <ul>
-                  <li><span>제작기간</span>2023.03 ~ 2023.04</li>
-                  <li><span>기여도</span>100%</li>
-                  <li><span>사용툴</span>HTML, CSS, Javascript, Figma, Git</li>
-                </ul>
-              </div>
-              <a href="https://wjdals95.github.io/pb-class/" target="_blank"
-                >사이트 바로가기</a
-              >
+         </section>
+         <section id="myskills" class="myskills-section">
+            <div class="custom-container">
+               <div class="content-width">
+                  <div class="section-header">
+                     <h4>
+                        <img src="./assets/images/icon/skill.svg" />
+                        <span>MY SKILLS</span>
+                     </h4>
+                     <h1>My <span>Advantages</span></h1>
+                  </div>
+                  <div class="skills">
+                     <div class="skill">
+                        <div class="skill-inner">
+                           <img src="./assets/images/skills/html5.png" alt="html5" />
+                           <!-- <h2 class="percent">00%</h2> -->
+                           <h2>HTML5</h2>
+                        </div>
+                        <!-- <p class="name">HTML5</p> -->
+                     </div>
+                     <div class="skill">
+                        <div class="skill-inner">
+                           <img src="./assets/images/skills/css3.png" alt="css3" />
+                           <!-- <h2 class="percent">00%</h2> -->
+                           <h2>CSS3</h2>
+                        </div>
+                        <!-- <p class="name">CSS3</p> -->
+                     </div>
+                     <div class="skill">
+                        <div class="skill-inner">
+                           <img src="./assets/images/skills/javascript.png" alt="javascript" />
+                           <!-- <h2 class="percent">00%</h2> -->
+                           <h2>JavaScript</h2>
+                        </div>
+                        <!-- <p class="name">Javascript</p> -->
+                     </div>
+                     <div class="skill">
+                        <div class="skill-inner">
+                           <img src="./assets/images/skills/react.png" alt="react" />
+                           <!-- <h2 class="percent">00%</h2> -->
+                           <h2>React</h2>
+                        </div>
+                        <!-- <p class="name">react</p> -->
+                     </div>
+                     <div class="skill">
+                        <div class="skill-inner">
+                           <img src="./assets/images/skills/figma.png" alt="figma" />
+                           <!-- <h2 class="percent">00%</h2> -->
+                           <h2>Figma</h2>
+                        </div>
+                        <!-- <p class="name">Figma</p> -->
+                     </div>
+                     <div class="skill">
+                        <div class="skill-inner">
+                           <img src="./assets/images/skills/github.png" alt="github" />
+                           <!-- <h2 class="percent">00%</h2> -->
+                           <h2>Github</h2>
+                        </div>
+                        <!-- <p class="name">Github</p> -->
+                     </div>
+                     <div class="skill">
+                        <div class="skill-inner">
+                           <img src="./assets/images/skills/visualstudiocode.png" alt="Visualstudiocode" />
+                           <!-- <h2 class="percent">00%</h2> -->
+                           <h2>VScode</h2>
+                        </div>
+                        <!-- <p class="name">Visualstudiocode</p> -->
+                     </div>
+                     <div class="skill">
+                        <div class="skill-inner">
+                           <img src="./assets/images/skills/intellijidea.png" alt="Intellij" />
+                           <!-- <h2 class="percent">00%</h2> -->
+                           <h2>Intellij</h2>
+                        </div>
+                        <!-- <p class="name">Intellij</p> -->
+                     </div>
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="porfolio-detail-item" id="todolist">
-            <div class="item-image-box">
-              <img
-                src="./assets/images/todolist-tailwind.png"
-                alt="todolist"
-              />
+         </section>
+         <section id="portfolio" class="portfolio-section">
+            <div class="custom-container">
+               <div class="content-width">
+                  <div class="section-header">
+                     <h4>
+                        <img src="./assets/images/icon/portfolio.svg" />
+                        <span>PORTFOLIO</span>
+                     </h4>
+                     <h1>Featured <span>Projects</span></h1>
+                  </div>
+                  <div class="portfolio-items">
+                     <div
+                        class="portfolio-item portfolio-full"
+                        data-toggle="portfolio-item"
+                        data-target="#portfolio-2023"
+                     >
+                        <div class="portfolio-item-inner">
+                           <img src="./assets/images/portfolio-pbclass.png" alt="portfolio" />
+                        </div>
+                        <h2>2023년 포트폴리오</h2>
+                        <ul class="portfolio-categories">
+                           <li>#HTML</li>
+                           <li>#CSS</li>
+                           <li>#Javascript</li>
+                        </ul>
+                     </div>
+                     <div class="portfolio-item portfolio-full" data-toggle="portfolio-item" data-target="#tour">
+                        <div class="portfolio-item-inner">
+                           <img src="./assets/images/tour.png" alt="portfolio" />
+                        </div>
+                        <h2>Tour</h2>
+                        <ul class="portfolio-categories">
+                           <li>#HTML</li>
+                           <li>#CSS</li>
+                           <li>#Javascript</li>
+                        </ul>
+                     </div>
+                     <div class="portfolio-item" data-toggle="portfolio-item" data-target="#todolist">
+                        <div class="portfolio-item-inner">
+                           <img src="./assets/images/todolist-tailwind.png" alt="portfolio" />
+                        </div>
+                        <h2>Todo List</h2>
+                        <ul class="portfolio-categories">
+                           <li>#HTML</li>
+                           <li>#TailwindCSS</li>
+                           <li>#Javascript</li>
+                        </ul>
+                     </div>
+                     <div class="portfolio-item" data-toggle="portfolio-item" data-target="#hansol">
+                        <div class="portfolio-item-inner">
+                           <img src="./assets/images/hansol.png" alt="portfolio" />
+                        </div>
+                        <h2>한솔홈데코</h2>
+                        <ul class="portfolio-categories">
+                           <li>#HTML</li>
+                           <li>#CSS</li>
+                        </ul>
+                     </div>
+                     <div class="portfolio-item portfolio-full" data-toggle="portfolio-item" data-target="#photosplash">
+                        <div class="portfolio-item-inner">
+                           <img src="./assets/images/photosplash.png" alt="portfolio" />
+                        </div>
+                        <h2>PhotoSplash</h2>
+                        <ul class="portfolio-categories">
+                           <li>#HTML</li>
+                           <li>#CSS</li>
+                           <li>#Vite</li>
+                           <li>#React</li>
+                           <li>#TypeScript</li>
+                        </ul>
+                     </div>
+                     <div class="portfolio-item" data-toggle="portfolio-item" data-target="#ruco">
+                        <div class="portfolio-item-inner">
+                           <img src="./assets/images/ruco.png" alt="portfolio" />
+                        </div>
+                        <h2>Ruco</h2>
+                        <ul class="portfolio-categories">
+                           <li>#HTML</li>
+                           <li>#CSS</li>
+                           <li>#Javascript</li>
+                        </ul>
+                     </div>
+                     <div class="portfolio-item" data-toggle="portfolio-item" data-target="#rism">
+                        <div class="portfolio-item-inner">
+                           <img src="./assets/images/2rism.png" alt="portfolio" />
+                        </div>
+                        <h2>2rims</h2>
+                        <ul class="portfolio-categories">
+                           <li>#HTML</li>
+                           <li>#CSS</li>
+                           <li>#Javascript</li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
             </div>
-            <div class="item-text-box">
-              <div class="item-text-top">
-                <h2>Todo list</h2>
-                <ul>
-                  <li>#구현100%</li>
-                  <li>#퍼블리싱</li>
-                  <li>#반응형</li>
-                  <li>#클론코딩</li>
-                </ul>
-              </div>
-              <div class="item-text-middle">
-                <p>
-                  TailwindCSS에 대해 유튜브를 통해 공부하다 따라하며 연습할수
-                  있는 강의를 보며 클론코딩을 완성했습니다. 이를 통해
-                  TailwindCSS를 좀 더 친숙하게 사용할수 있으며 반응형 및
-                  이벤트를 어떻게 주는지를 이해했습니다.
-                </p>
-              </div>
-              <div class="item-text-bottom">
-                <h3>Work Info</h3>
-                <ul>
-                  <li><span>제작기간</span>2024.04 ~ 2024.04</li>
-                  <li><span>기여도</span>100%</li>
-                  <li><span>사용툴</span>HTML, TailwindCSS, JavaScript, Git</li>
-                </ul>
-              </div>
-              <a
-                href="https://wjdals95.github.io/todolist-tailwind"
-                target="_blank"
-                >사이트 바로가기</a
-              >
+         </section>
+         <section id="contact" class="contact-section">
+            <div class="custom-container">
+               <div class="content-width">
+                  <div class="section-header">
+                     <h4>
+                        <img src="./assets/images/icon/contact.svg" />
+                        <span>CONTACT</span>
+                     </h4>
+                     <h1>Let's Work <span>Together!</span></h1>
+                  </div>
+                  <div class="form-box">
+                     <form
+                        id="emailForm"
+                        class="gform"
+                        method="POST"
+                        data-email="wjdals992@naver.com"
+                        action="https://script.google.com/macros/s/AKfycbyEfXNG4QB2cbOvm6rraRv6_VDiHiP8sPTNzhAbT3pG-JnJWdSIuLVQaY2pSJBIyqxs4A/exec"
+                     >
+                        <div class="form-group-top">
+                           <div class="form-group">
+                              <label for="#senderEmail">Email <span>*</span></label>
+                              <input
+                                 type="text"
+                                 class="form-control"
+                                 id="senderEmail"
+                                 name="senderEmail"
+                                 placeholder="Your Email"
+                                 required
+                              />
+                           </div>
+                           <div class="form-group">
+                              <label for="#senderNAme">Name <span>*</span></label>
+                              <input
+                                 type="text"
+                                 class="form-control"
+                                 id="senderName"
+                                 name="senderName"
+                                 placeholder="Your Name"
+                                 required
+                              />
+                           </div>
+                        </div>
+                        <div class="form-group message-area">
+                           <label for="#message">message <span>*</span></label>
+                           <textarea
+                              class="form-control"
+                              id="message"
+                              name="message"
+                              rows="5"
+                              placeholder="Your Message"
+                           ></textarea>
+                        </div>
+
+                        <script type="text/javascript">
+                           ;(function () {
+                              // get all data in form and return object
+                              function getFormData(form) {
+                                 var elements = form.elements
+                                 var honeypot
+
+                                 var fields = Object.keys(elements)
+                                    .filter(function (k) {
+                                       if (elements[k].name === 'honeypot') {
+                                          honeypot = elements[k].value
+                                          return false
+                                       }
+                                       return true
+                                    })
+                                    .map(function (k) {
+                                       if (elements[k].name !== undefined) {
+                                          return elements[k].name
+                                          // special case for Edge's html collection
+                                       } else if (elements[k].length > 0) {
+                                          return elements[k].item(0).name
+                                       }
+                                    })
+                                    .filter(function (item, pos, self) {
+                                       return self.indexOf(item) == pos && item
+                                    })
+
+                                 var formData = {}
+                                 fields.forEach(function (name) {
+                                    var element = elements[name]
+
+                                    // singular form elements just have one value
+                                    formData[name] = element.value
+
+                                    // when our element has multiple items, get their values
+                                    if (element.length) {
+                                       var data = []
+                                       for (var i = 0; i < element.length; i++) {
+                                          var item = element.item(i)
+                                          if (item.checked || item.selected) {
+                                             data.push(item.value)
+                                          }
+                                       }
+                                       formData[name] = data.join(', ')
+                                    }
+                                 })
+
+                                 // add form-specific values into the data
+                                 formData.formDataNameOrder = JSON.stringify(fields)
+                                 formData.formGoogleSheetName = form.dataset.sheet || 'responses' // default sheet name
+                                 formData.formGoogleSendEmail = form.dataset.email || '' // no email by default
+
+                                 return { data: formData, honeypot: honeypot }
+                              }
+
+                              function handleFormSubmit(event) {
+                                 // handles form submit without any jquery
+                                 event.preventDefault() // we are submitting via xhr below
+                                 var form = event.target
+                                 var formData = getFormData(form)
+                                 var data = formData.data
+
+                                 // If a honeypot field is filled, assume it was done so by a spam bot.
+                                 if (formData.honeypot) {
+                                    return false
+                                 }
+
+                                 disableAllButtons(form)
+                                 var url = form.action
+                                 var xhr = new XMLHttpRequest()
+                                 xhr.open('POST', url)
+                                 // xhr.withCredentials = true;
+                                 xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
+                                 xhr.onreadystatechange = function () {
+                                    if (xhr.readyState === 4 && xhr.status === 200) {
+                                       form.reset()
+                                       var formElements = form.querySelector('.form-elements')
+                                       if (formElements) {
+                                          formElements.style.display = 'none' // hide form
+                                       }
+                                       var thankYouMessage = form.querySelector('.thankyou_message')
+                                       if (thankYouMessage) {
+                                          thankYouMessage.style.display = 'block'
+                                          alert('메일 전송에 성공했습니다. 확인 후 회신드리겠습니다.')
+                                       }
+                                    }
+                                 }
+                                 // url encode form data for sending as post data
+                                 var encoded = Object.keys(data)
+                                    .map(function (k) {
+                                       return encodeURIComponent(k) + '=' + encodeURIComponent(data[k])
+                                    })
+                                    .join('&')
+                                 xhr.send(encoded)
+                              }
+
+                              function loaded() {
+                                 // bind to the submit event of our form
+                                 var forms = document.querySelectorAll('form.gform')
+                                 for (var i = 0; i < forms.length; i++) {
+                                    forms[i].addEventListener('submit', handleFormSubmit, false)
+                                 }
+                              }
+                              document.addEventListener('DOMContentLoaded', loaded, false)
+
+                              function disableAllButtons(form) {
+                                 var buttons = form.querySelectorAll('button')
+                                 for (var i = 0; i < buttons.length; i++) {
+                                    buttons[i].disabled = true
+                                 }
+                              }
+                           })()
+                        </script>
+                        <div class="form-group">
+                           <button id="btnSubmit" class="btn-submit">Send Message</button>
+                        </div>
+
+                        <div style="display: none" class="thankyou_message">
+                           <h2>
+                              <em>Thanks</em> for contacting me! <br />
+                              I will get back to you soon!
+                           </h2>
+                        </div>
+                     </form>
+                     <img src="./assets/images/contact-img.png" alt="" />
+                  </div>
+               </div>
             </div>
-          </div>
-          <div class="porfolio-detail-item" id="hansol">
-            <div class="item-image-box">
-              <img
-                src="./assets/images/hansol-full.png"
-                alt="hansol"
-              />
+         </section>
+      </main>
+      <div class="portfolio-detail">
+         <div class="container">
+            <div class="porfolio-detail-items">
+               <div class="porfolio-detail-item" id="portfolio-2023">
+                  <div class="item-image-box">
+                     <img src="./assets/images/portfolio-pbclass-full.png" alt="Portfolio 2023" />
+                  </div>
+                  <div class="item-text-box">
+                     <div class="item-text-top">
+                        <h2>2023년 포트폴리오</h2>
+                        <ul>
+                           <li>#구현100%</li>
+                           <li>#반응형</li>
+                           <li>#퍼블리싱</li>
+                        </ul>
+                     </div>
+                     <div class="item-text-middle">
+                        <p>
+                           국지비원수업을 수료한 후 퍼블리셔로 취업하기 위해 현업자의 조언을 받으며 스터디를
+                           진행했습니다. 이를 통해 다양한 이벤트를 주고, 반응형 퍼블리싱을 완성했습니다.
+                        </p>
+                     </div>
+                     <div class="item-text-bottom">
+                        <h3>Work Info</h3>
+                        <ul>
+                           <li><span>제작기간</span>2023.03 ~ 2023.04</li>
+                           <li><span>기여도</span>100%</li>
+                           <li><span>사용툴</span>HTML, CSS, Javascript, Figma, Git</li>
+                        </ul>
+                     </div>
+                     <a href="https://wjdals95.github.io/pb-class/" target="_blank">사이트 바로가기</a>
+                  </div>
+               </div>
+               <div class="porfolio-detail-item" id="tour">
+                  <div class="item-image-box">
+                     <img src="./assets/images/tour-full.png" alt="Tour" />
+                  </div>
+                  <div class="item-text-box">
+                     <div class="item-text-top">
+                        <h2>Tour</h2>
+                        <ul>
+                           <li>#구현100%</li>
+                           <li>#반응형</li>
+                           <li>#Remixicon</li>
+                        </ul>
+                     </div>
+                     <div class="item-text-middle">
+                        <p>
+                           유튜브를 통해 클론코딩을 연습하며, Html 시멘틱 태그에 대해 연습하고, Css 반응형과 애니메이션
+                           및 재사용성을 위한 변수처리와 Html의 dataset을 Javascript로 이용하여 슬라이더 효과를 주며
+                           dataset의 사용방법을 배웠습니다.
+                        </p>
+                     </div>
+                     <div class="item-text-bottom">
+                        <h3>Work Info</h3>
+                        <ul>
+                           <li><span>제작기간</span>2024.04 ~ 2024.04</li>
+                           <li><span>기여도</span>100%</li>
+                           <li><span>사용툴</span>HTML, CSS, Javascript, Git</li>
+                        </ul>
+                     </div>
+                     <a href="https://wjdals95.github.io/tour" target="_blank">사이트 바로가기</a>
+                  </div>
+               </div>
+               <div class="porfolio-detail-item" id="todolist">
+                  <div class="item-image-box">
+                     <img src="./assets/images/todolist-tailwind-full.png" alt="todolist" />
+                  </div>
+                  <div class="item-text-box">
+                     <div class="item-text-top">
+                        <h2>Todo list</h2>
+                        <ul>
+                           <li>#구현100%</li>
+                           <li>#퍼블리싱</li>
+                           <li>#반응형</li>
+                           <li>#클론코딩</li>
+                        </ul>
+                     </div>
+                     <div class="item-text-middle">
+                        <p>
+                           TailwindCSS에 대해 유튜브를 통해 공부하다 따라하며 연습할수 있는 강의를 보며 클론코딩을
+                           완성했습니다. 이를 통해 TailwindCSS를 좀 더 친숙하게 사용할수 있으며 반응형 및 이벤트를
+                           어떻게 주는지를 이해했습니다.
+                        </p>
+                     </div>
+                     <div class="item-text-bottom">
+                        <h3>Work Info</h3>
+                        <ul>
+                           <li><span>제작기간</span>2024.04 ~ 2024.04</li>
+                           <li><span>기여도</span>100%</li>
+                           <li><span>사용툴</span>HTML, TailwindCSS, JavaScript, Git</li>
+                        </ul>
+                     </div>
+                     <a href="https://wjdals95.github.io/todolist-tailwind" target="_blank">사이트 바로가기</a>
+                  </div>
+               </div>
+               <div class="porfolio-detail-item" id="hansol">
+                  <div class="item-image-box">
+                     <img src="./assets/images/hansol-full.png" alt="hansol" />
+                  </div>
+                  <div class="item-text-box">
+                     <div class="item-text-top">
+                        <h2>한솔홈데코</h2>
+                        <ul>
+                           <li>#구현100%</li>
+                           <li>#퍼블리싱</li>
+                           <li>#클론코딩</li>
+                        </ul>
+                     </div>
+                     <div class="item-text-middle">
+                        <p>
+                           포트폴리오 사이트를 제작한 후 퍼블리싱을 좀 더 연습하고싶어 유튜브 강의를 보며 사이트를
+                           캡쳐하여 포토샵을 통해 간격이나 크기 등을 참고하며 퍼블리싱 하는법을 배우며 반응형이나
+                           슬라이드처리는 제외하고 클론코딩을 제작했습니다.
+                        </p>
+                     </div>
+                     <div class="item-text-bottom">
+                        <h3>Work Info</h3>
+                        <ul>
+                           <li><span>제작기간</span>2023.04 ~ 2023.05</li>
+                           <li><span>기여도</span>100%</li>
+                           <li><span>사용툴</span>HTML, CSS, Git</li>
+                        </ul>
+                     </div>
+                     <a href="https://wjdals95.github.io/pb-class/hansol/" target="_blank">사이트 바로가기</a>
+                  </div>
+               </div>
+               <div class="porfolio-detail-item" id="photosplash">
+                  <div class="item-image-box">
+                     <img src="./assets/images/photosplash-full.png" alt="photosplash" />
+                  </div>
+                  <div class="item-text-box">
+                     <div class="item-text-top">
+                        <h2>PhotoSplash</h2>
+                        <ul>
+                           <li>#구현40%</li>
+                           <li>#퍼블리싱</li>
+                           <li>#반응형</li>
+                        </ul>
+                     </div>
+                     <div class="item-text-middle">
+                        <p>React와 Typescript, Scss를 통해 제작중에 있습니다.</p>
+                     </div>
+                     <div class="item-text-bottom">
+                        <h3>Work Info</h3>
+                        <ul>
+                           <li><span>제작기간</span>2024.04 ~ 재작중</li>
+                           <li><span>기여도</span>100%</li>
+                           <li><span>사용툴</span>HTML, SCSS, React, Typescript, Git</li>
+                        </ul>
+                     </div>
+                     <a href="https://github.com/wjdals95/react-yutube-tutorial-album" target="_blank"
+                        >사이트 바로가기</a
+                     >
+                  </div>
+               </div>
+               <div class="porfolio-detail-item" id="ruco">
+                  <div class="item-image-box">
+                     <img src="./assets/images/ruco-full.png" alt="ruco" />
+                  </div>
+                  <div class="item-text-box">
+                     <div class="item-text-top">
+                        <h2>Ruco</h2>
+                        <ul>
+                           <li>#구현100%</li>
+                           <li>#퍼블리싱</li>
+                           <li>#IntersectionObserver</li>
+                        </ul>
+                     </div>
+                     <div class="item-text-middle">
+                        <p>
+                           퍼블리셔 스터디를 하며 피그마 탬플릿 디자인을 이용하며 퍼블리싱을 했으며, CSS animation을
+                           통해 텍스트 효과인 marquee를 제작했고, Javascript의 IntersectionObserver을 이용하여 스크롤
+                           이벤트를 주며 퍼블리싱을 완성했습니다.
+                        </p>
+                     </div>
+                     <div class="item-text-bottom">
+                        <h3>Work Info</h3>
+                        <ul>
+                           <li><span>제작기간</span>2023.04 ~ 2023.05</li>
+                           <li><span>기여도</span>100%</li>
+                           <li><span>사용툴</span>HTML, CSS, Javascript, Figma, Git</li>
+                        </ul>
+                     </div>
+                     <a href="https://wjdals95.github.io/pb-class/week2-basic/" target="_blank">사이트 바로가기</a>
+                  </div>
+               </div>
+               <div class="porfolio-detail-item" id="rism">
+                  <div class="item-image-box">
+                     <img src="./assets/images/2rism-full.png" alt="2rism" />
+                  </div>
+                  <div class="item-text-box">
+                     <div class="item-text-top">
+                        <h2>2rism</h2>
+                        <ul>
+                           <li>#구현100%</li>
+                           <li>#퍼블리싱</li>
+                           <li>#getBoundingClientRect</li>
+                        </ul>
+                     </div>
+                     <div class="item-text-middle">
+                        <p>
+                           퍼블리셔 스터디를 하며 피그마 탬플릿 디자인을 이용하며 퍼블리싱을 했으며, Javascript의
+                           getBoundingClientRect 이용하여 스크롤 이벤트를 주며 퍼블리싱을 완성했습니다.
+                        </p>
+                     </div>
+                     <div class="item-text-bottom">
+                        <h3>Work Info</h3>
+                        <ul>
+                           <li><span>제작기간</span>2023.03 ~ 2023.04</li>
+                           <li><span>기여도</span>100%</li>
+                           <li><span>사용툴</span>HTML, CSS, Javascript, Figma, Git</li>
+                        </ul>
+                     </div>
+                     <a href="https://wjdals95.github.io/pb-class/week1-basic/" target="_blank">사이트 바로가기</a>
+                  </div>
+               </div>
             </div>
-            <div class="item-text-box">
-              <div class="item-text-top">
-                <h2>한솔홈데코</h2>
-                <ul>
-                  <li>#구현100%</li>
-                  <li>#퍼블리싱</li>
-                  <li>#클론코딩</li>
-                </ul>
-              </div>
-              <div class="item-text-middle">
-                <p>
-                  포트폴리오 사이트를 제작한 후 퍼블리싱을 좀 더 연습하고싶어
-                  유튜브 강의를 보며 사이트를 캡쳐하여 포토샵을 통해 간격이나
-                  크기 등을 참고하며 퍼블리싱 하는법을 배우며 반응형이나
-                  슬라이드처리는 제외하고 클론코딩을 제작했습니다.
-                </p>
-              </div>
-              <div class="item-text-bottom">
-                <h3>Work Info</h3>
-                <ul>
-                  <li><span>제작기간</span>2023.04 ~ 2023.05</li>
-                  <li><span>기여도</span>100%</li>
-                  <li><span>사용툴</span>HTML, CSS, Git</li>
-                </ul>
-              </div>
-              <a
-                href="https://wjdals95.github.io/pb-class/hansol/"
-                target="_blank"
-                >사이트 바로가기</a
-              >
-            </div>
-          </div>
-          <div class="porfolio-detail-item" id="photosplash">
-            <div class="item-image-box">
-              <img
-                src="./assets/images/photosplash-full.png"
-                alt="photosplash"
-              />
-            </div>
-            <div class="item-text-box">
-              <div class="item-text-top">
-                <h2>PhotoSplash</h2>
-                <ul>
-                  <li>#구현30%</li>
-                  <li>#퍼블리싱</li>
-                  <li>#반응형</li>
-                </ul>
-              </div>
-              <div class="item-text-middle">
-                <p>React와 Typescript, Scss를 통해 제작중에 있습니다.</p>
-              </div>
-              <div class="item-text-bottom">
-                <h3>Work Info</h3>
-                <ul>
-                  <li><span>제작기간</span>2024.04 ~ 재작중</li>
-                  <li><span>기여도</span>100%</li>
-                  <li><span>사용툴</span>HTML, SCSS, React, Typescript, Git</li>
-                </ul>
-              </div>
-              <a
-                href="https://wjdals95.github.io/pb-class/react-yutube-tutorial-album"
-                target="_blank"
-                >사이트 바로가기</a
-              >
-            </div>
-          </div>
-          <div class="porfolio-detail-item" id="ruco">
-            <div class="item-image-box">
-              <img
-                src="./assets/images/ruco-full.png"
-                alt="ruco"
-              />
-            </div>
-            <div class="item-text-box">
-              <div class="item-text-top">
-                <h2>Ruco</h2>
-                <ul>
-                  <li>#구현100%</li>
-                  <li>#퍼블리싱</li>
-                  <li>#IntersectionObserver</li>
-                </ul>
-              </div>
-              <div class="item-text-middle">
-                <p>
-                  퍼블리셔 스터디를 하며 피그마 탬플릿 디자인을 이용하며
-                  퍼블리싱을 했으며, CSS animation을 통해 텍스트 효과인 marquee를
-                  제작했고, Javascript의 IntersectionObserver을
-                  이용하여 스크롤 이벤트를 주며 퍼블리싱을 완성했습니다.
-                </p>
-              </div>
-              <div class="item-text-bottom">
-                <h3>Work Info</h3>
-                <ul>
-                  <li><span>제작기간</span>2023.04 ~ 2023.05</li>
-                  <li><span>기여도</span>100%</li>
-                  <li><span>사용툴</span>HTML, CSS, Javascript, Figma, Git</li>
-                </ul>
-              </div>
-              <a
-                href="https://wjdals95.github.io/pb-class/week2-basic/"
-                target="_blank"
-                >사이트 바로가기</a
-              >
-            </div>
-          </div>
-          <div class="porfolio-detail-item" id="rism">
-            <div class="item-image-box">
-              <img
-                src="./assets/images/2rism-full.png"
-                alt="2rism"
-              />
-            </div>
-            <div class="item-text-box">
-              <div class="item-text-top">
-                <h2>2rism</h2>
-                <ul>
-                  <li>#구현100%</li>
-                  <li>#퍼블리싱</li>
-                  <li>#getBoundingClientRect</li>
-                </ul>
-              </div>
-              <div class="item-text-middle">
-                <p>
-                  퍼블리셔 스터디를 하며 피그마 탬플릿 디자인을 이용하며
-                  퍼블리싱을 했으며, Javascript의 getBoundingClientRect 이용하여
-                  스크롤 이벤트를 주며 퍼블리싱을 완성했습니다.
-                </p>
-              </div>
-              <div class="item-text-bottom">
-                <h3>Work Info</h3>
-                <ul>
-                  <li><span>제작기간</span>2023.03 ~ 2023.04</li>
-                  <li><span>기여도</span>100%</li>
-                  <li><span>사용툴</span>HTML, CSS, Javascript, Figma, Git</li>
-                </ul>
-              </div>
-              <a
-                href="https://wjdals95.github.io/pb-class/week1-basic/"
-                target="_blank"
-                >사이트 바로가기</a
-              >
-            </div>
-          </div>
-        </div>
-        <div class="close"></div>
+            <div class="close"></div>
+         </div>
+         <div class="slider-overlay"></div>
       </div>
-      <div class="slider-overlay"></div>
-    </div>
-    <!-- Javascript CDN -->
-    <script src="./assets/js/main.js"></script>
+      <!-- Javascript CDN -->
+      <script src="./assets/js/main.js"></script>
 
-    <!-- 페이지가 JSON 응답/결과로 변경되지 않도록 하려면 `AJAX`를 사용하여 양식을 제출해야 한다.
+      <!-- 페이지가 JSON 응답/결과로 변경되지 않도록 하려면 `AJAX`를 사용하여 양식을 제출해야 한다.
   파일 끝 (*</body> 태그 닫기 전)에 다음 JavaScript 파일을 포함하도록 index.html을 업데이트. -->
-    <script
-      data-cfasync="false"
-      type="text/javascript"
-      src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"
-    ></script>
-  </body>
+      <script
+         data-cfasync="false"
+         type="text/javascript"
+         src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"
+      ></script>
+   </body>
 </html>
