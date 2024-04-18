@@ -151,7 +151,7 @@
    padding: 50px;
    transition: all 1s;
 }
-.myinfo-card.intro{
+.myinfo-card.intro {
    left: 50px;
 }
 .myinfo-card .myinfo-header {
@@ -235,7 +235,7 @@
    border-radius: 30px;
    transition: all 1s;
 }
-.sidebar-nav.intro{
+.sidebar-nav.intro {
    right: 50px;
 }
 .sidebar-nav a {
@@ -342,13 +342,13 @@ main .myinfo-card {
    padding: 90px 0;
    height: 100vh;
 }
-.home-section .custom-container{
-    opacity: 0;
-    visibility: hidden;
-    height: 0;
-    transition: all 2s;
+.home-section .custom-container {
+   opacity: 0;
+   visibility: hidden;
+   height: 0;
+   transition: all 2s;
 }
-.home-section .custom-container.intro{
+.home-section .custom-container.intro {
    opacity: 1;
    visibility: visible;
    height: 100%;
@@ -401,17 +401,35 @@ main .myinfo-card {
    padding: 90px 0;
    height: 100vh;
    margin-bottom: 1px;
+   overflow: hidden;
+}
+.about-section .section-header h4 {
+   transform: translateY(-50px);
+}
+.about-section .section-header h4.fade-in {
+   transform: translateY(0);
+   transition: all 0.5s ease;
 }
 .about-section .content-width p {
+   display: block;
    font-size: 22px;
    color: var(--white-color);
    max-width: 800px;
+   opacity: 0;
 }
 .about-section .content-width p:nth-of-type(1) {
    margin-bottom: 20px;
 }
+.about-section .content-width p:nth-of-type(1).fade-in {
+   opacity: 1;
+   transition: all 1s ease;
+}
 .about-section .content-width p:nth-last-of-type(1) {
    margin-bottom: 50px;
+}
+.about-section .content-width p:nth-last-of-type(1).fade-in {
+   opacity: 1;
+   transition: all 1s 1s ease;
 }
 .about-section .content-width p span {
    color: var(--accent-color);
@@ -423,16 +441,27 @@ main .myinfo-card {
    border-radius: 10px;
    padding: 10px 20px;
    transition: 0.3s;
+   transform: translate(0, 50px);
 }
 .about-section .content-width a:hover {
    color: var(--accent-color);
    background-color: var(--white-color);
 }
-
+.about-section .content-width a.fade-in {
+   transform: translate(0, 0);
+   transition: all 1s 1.5s ease;
+}
 /* ############### RESUME SECTION ############### */
 .resume-section {
    padding: 90px 0;
    height: 100vh;
+}
+.resume-section .section-header {
+   opacity: 0;
+}
+.resume-section .section-header.fade-in {
+   opacity: 1;
+   transition: all 1s;
 }
 .resume-section .resume-timeline {
    display: grid;
@@ -457,9 +486,44 @@ main .myinfo-card {
    left: 8px;
    top: 10px;
    width: 1px;
-   height: calc(100% - 10px);
+   height: 0;
    background-color: var(--white-color);
    z-index: -1;
+}
+.resume-section .resume-timeline .resume-items.fade-in::after {
+   height: calc(100% - 10px);
+   transition: all 0.5s ease;
+}
+.resume-section .resume-timeline .resume-items .resume-item {
+   opacity: 0;
+}
+.resume-section .resume-timeline .resume-items .resume-item:nth-child(1) {
+   transform: translateX(50px);
+}
+.resume-section .resume-timeline .resume-items .resume-item:nth-child(2) {
+   transform: translateX(100px);
+}
+.resume-section .resume-timeline .resume-items .resume-item:nth-child(3) {
+   transform: translateX(150px);
+}
+.resume-section .resume-timeline .resume-items .resume-item:nth-child(4) {
+   transform: translateX(200px);
+}
+.resume-section .resume-timeline .resume-items .resume-item.fade-in {
+   opacity: 1;
+   transform: translateX(0);
+}
+.resume-section .resume-timeline .resume-items .resume-item:nth-child(1).fade-in {
+   transition: all 1s 0.25s ease;
+}
+.resume-section .resume-timeline .resume-items .resume-item:nth-child(2).fade-in {
+   transition: all 1s 0.5s ease;
+}
+.resume-section .resume-timeline .resume-items .resume-item:nth-child(3).fade-in {
+   transition: all 1s 0.75s ease;
+}
+.resume-section .resume-timeline .resume-items .resume-item:nth-child(4).fade-in {
+   transition: all 1s 1s ease;
 }
 .resume-section .resume-timeline .resume-items .resume-item h2::before {
    content: '';
@@ -500,28 +564,64 @@ main .myinfo-card {
    padding: 90px 0;
    margin-top: 1px;
 }
+.myskills-section .section-header {
+   opacity: 0;
+}
+.myskills-section .section-header.fade-in {
+   opacity: 1;
+   transition: all 1s;
+}
 .myskills-section .skills {
-   display: flex;
-   flex-wrap: wrap;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   gap: 20px;
 }
 .myskills-section .skills .skill {
-   width: 25%;
+   position: relative;
    display: flex;
    flex-direction: column;
    align-items: center;
    margin-bottom: 20px;
+   opacity: 0;
 }
+.myskills-section .skills .skill:nth-child(1),
+.myskills-section .skills .skill:nth-child(5) {
+   transform: translate(-100px, 100px);
+}
+.myskills-section .skills .skill:nth-child(2),
+.myskills-section .skills .skill:nth-child(6) {
+   transform: translate(0px, 50px);
+}
+.myskills-section .skills .skill:nth-child(3),
+.myskills-section .skills .skill:nth-child(7) {
+   transform: translate(0px, -50px);
+}
+.myskills-section .skills .skill:nth-child(4),
+.myskills-section .skills .skill:nth-child(8) {
+   transform: translate(100px, -100px);
+}
+.myskills-section .skills .skill.first-in {
+   opacity: 1;
+   transform: translate(0, 0);
+   transition: all 1s 0.5s ease;
+}
+.myskills-section .skills .skill.second-in {
+   opacity: 1;
+   transform: translate(0, 0);
+   transition: all 1s 1.2s ease;
+}
+
 .myskills-section .skills .skill .skill-inner {
    padding: 30px 0;
    border: 2px solid var(--main-color);
    border-radius: 30px;
    width: 90%;
    text-align: center;
-   margin-bottom: 20px;
    transition: 0.3s;
 }
 .myskills-section .skills .skill:hover .skill-inner h2 {
-   transition: 0.3s;
+   transition: all 0.3s;
+   font-size: 22px;
 }
 .myskills-section .skills .skill:hover .skill-inner,
 .myskills-section .skills .skill:hover .skill-inner h2 {
@@ -542,6 +642,13 @@ main .myinfo-card {
 .portfolio-section {
    padding: 90px 0;
 }
+.portfolio-section .section-header {
+   opacity: 0;
+}
+.portfolio-section .section-header.fade-in {
+   opacity: 1;
+   transition: all 1s;
+}
 .portfolio-section .portfolio-items {
    display: flex;
    flex-wrap: wrap;
@@ -552,10 +659,26 @@ main .myinfo-card {
    max-width: 100%;
    padding: 0 10px;
    margin-bottom: 50px;
+   opacity: 0;
 }
 .portfolio-section .portfolio-items .portfolio-item.portfolio-full {
    width: 100%;
    flex: 0 0 auto;
+   transform: translateY(50px);
+}
+.portfolio-section .portfolio-items .portfolio-item:nth-child(1) {
+   transform: translateY(-50px);
+}
+.portfolio-section .portfolio-items .portfolio-item.left {
+   transform: translateX(-50px);
+}
+.portfolio-section .portfolio-items .portfolio-item.right {
+   transform: translateX(50px);
+}
+.portfolio-section .portfolio-items .portfolio-item.fade-in {
+   transform: translate(0, 0);
+   opacity: 1;
+   transition: all 1s 0.25s ease;
 }
 .portfolio-section .portfolio-items .portfolio-item .portfolio-item-inner {
    height: 300px;
@@ -766,10 +889,18 @@ main .myinfo-card {
    margin-bottom: 1px;
    height: 100vh;
 }
+.contact-section .section-header {
+   opacity: 0;
+}
+.contact-section .section-header.fade-in {
+   opacity: 1;
+   transition: all 1s;
+}
 .contact-section .form-box {
    display: grid;
    grid-template-columns: 2fr 1fr;
    gap: 50px;
+
 }
 .contact-section .form-box img {
    width: 100%;
@@ -777,6 +908,13 @@ main .myinfo-card {
 .contact-section form {
    display: flex;
    flex-direction: column;
+   opacity: 0;
+   transform: translateY(100px);
+}
+.contact-section form.fade-in{
+   opacity: 1;
+   transform: translateY(0);
+   transition: all 1s ease;
 }
 .contact-section form .form-group-top {
    display: flex;

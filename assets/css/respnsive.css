@@ -196,9 +196,11 @@
       width: 30%;
       margin: 0 auto;
    }
-   .myskills-section .skills .skill {
-      width: 30%;
-      margin-bottom: 0;
+   .myskills-section .skills .skill .skill-inner {
+      padding: 20px 0;
+   }
+   .myskills-section .skills {
+      grid-template-columns: 1fr 1fr 1fr;
    }
    .myskills-section .skills .skill .skill-inner img {
       width: 70px;
@@ -293,9 +295,8 @@
       line-height: 50px;
       font-size: 26px;
    }
-
    .myskills-section .skills .skill .skill-inner h2 {
-      font-size: 20px;
+      font-size: 18px;
    }
    .resume-section .resume-timeline .resume-items .resume-item h2 {
       font-size: 24px;
@@ -312,11 +313,8 @@
    .contact-section form .form-group {
       width: 70%;
    }
-   .myskills-section .skills .skill {
-      width: 50%;
-   }
-   .myskills-section .skills .skill .skill-inner {
-      padding: 20px 0;
+   .myskills-section .skills{
+      gap: 10px;
    }
    .myskills-section .skills .skill .skill-inner img {
       width: 50px;
@@ -332,6 +330,12 @@
 @media (max-width: 400px) {
    .section-header h1 {
       font-size: 28px;
+   }
+   .myskills-section .skills .skill .skill-inner{
+      padding: 15px 0;
+   }
+    .myskills-section .skills .skill .skill-inner h2 {
+      font-size: 14px;
    }
    .portfolio-detail .container .item-text-box .item-text-top ul {
       gap: 0.5rem;
@@ -354,5 +358,8 @@
    .myinfo-card .myphoto {
       height: 250px;
       width: 250px;
+   }
+       .myskills-section .skills .skill .skill-inner h2 {
+      font-size: 12px;
    }
 }
