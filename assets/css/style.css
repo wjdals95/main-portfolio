@@ -619,9 +619,11 @@ main .myinfo-card {
    text-align: center;
    transition: 0.3s;
 }
+.myskills-section .skills .skill .skill-inner h2{
+   font-size: 22px;
+}
 .myskills-section .skills .skill:hover .skill-inner h2 {
    transition: all 0.3s;
-   font-size: 22px;
 }
 .myskills-section .skills .skill:hover .skill-inner,
 .myskills-section .skills .skill:hover .skill-inner h2 {
